@@ -1,0 +1,50 @@
+{
+  "name": "bob-resources",
+  "version": "0.0.0",
+  "description": "Smallish resource library based on Vuex.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephank/bob-resources.git"
+  },
+  "keywords": [
+    "vue",
+    "vuex",
+    "resources"
+  ],
+  "author": "Stéphan Kochen <stephan@kochen.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stephank/bob-resources/issues"
+  },
+  "homepage": "https://github.com/stephank/bob-resources#readme",
+  "dependencies": {
+    "lodash": "^4.17.2",
+    "ms": "^0.7.2",
+    "path-to-regexp": "^1.7.0",
+    "vue": "^2.1.4",
+    "vuex": "^2.0.0"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "experimentalObjectRestSpread": true
+      }
+    },
+    "env": {
+      "es6": true,
+      "browser": true
+    },
+    "rules": {
+      "strict": 2,
+      "no-var": 2,
+      "prefer-arrow-callback": 2,
+      "prefer-const": 2,
+      "prefer-numeric-literals": 2,
+      "prefer-rest-params": 2,
+      "prefer-spread": 2
+    }
+  }
+}
